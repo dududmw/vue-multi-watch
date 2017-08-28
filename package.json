@@ -1,0 +1,40 @@
+{
+  "name": "vue-multi-watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "dist/index.js",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "^6.25.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "rimraf": "^2.6.1"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dududmw/vue-multi-watch.git"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "multi",
+    "watch"
+  ],
+  "author": "dududmw",
+  "bugs": {
+    "url": "https://github.com/dududmw/vue-multi-watch/issues"
+  },
+  "homepage": "https://github.com/dududmw/vue-multi-watch#readme"
+}
